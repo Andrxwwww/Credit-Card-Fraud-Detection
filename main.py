@@ -4,8 +4,8 @@ from src.Feature_engineer import TransactionFeatureEngineer
 def main():
     # Step 1: Load and preprocess (if not already done)
     file_path = 'data/synthetic_fraud_data.csv'  # Your original raw CSV
-    preprocessed_path = 'preprocessed_transactions.csv'
-    output_path = 'featured_transactions.csv'
+    preprocessed_path = 'data/preprocessed_transactions.csv'
+    output_path = 'data/featured_transactions.csv'
     chunk_size = 1000000
     n_threads=6
     
