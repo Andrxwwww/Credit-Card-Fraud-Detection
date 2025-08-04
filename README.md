@@ -8,6 +8,7 @@ This project provides a Python-based pipeline for processing large credit card t
 The pipeline is designed for scalability, memory efficiency, and simplicity. It processes data like transaction IDs, timestamps, amounts, merchant details, and fraud labels, transforming them into a clean, feature-rich format.
 
 ## Dependencies
+Dataset used: https://www.kaggle.com/datasets/ismetsemedov/transactions
 
 > pip install -r req.txt
 
